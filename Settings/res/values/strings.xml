@@ -1506,4 +1506,5 @@
     <string name="power_action_restart">restart</string>
     <string name="power_action_shutdown">shutdown</string>
     <string name="netflix_esn">Netflix ESN</string>
+    <string name="display_filter_outputmode"></string>
 </resources>

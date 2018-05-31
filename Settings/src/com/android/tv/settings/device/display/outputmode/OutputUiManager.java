@@ -60,6 +60,19 @@ public class OutputUiManager {
         "1080i60hz",
         "576i50hz",
         "480i60hz",
+        "640x480p60hz",
+        "800x480p60hz",
+        "800x600p60hz",
+        "1024x600p60hz",
+        "1024x768p60hz",
+        "1280x800p60hz",
+        "1280x1024p60hz",
+        "1360x768p60hz",
+        "1366x768p60hz",
+        "1440x900p60hz",
+        "1600x900p60hz",
+        "1600x1200p60hz",
+        "1920x1200p60hz",
     };
     private static final String[] HDMI_TITLE = {
         "1080p-60hz",
@@ -78,7 +91,20 @@ public class OutputUiManager {
         "1080i-50hz",
         "1080i-60hz",
         "576i-50hz",
-        "480i-60hz"
+        "480i-60hz",
+        "640x480p-60hz",
+        "800x480p-60hz",
+        "800x600p-60hz",
+        "1024x600p-60hz",
+        "1024x768p-60hz",
+        "1280x800p-60hz",
+        "1280x1024p-60hz",
+        "1360x768p-60hz",
+        "1366x768p-60hz",
+        "1440x900p-60hz",
+        "1600x900p-60hz",
+        "1600x1200p-60hz",
+        "1920x1200p-60hz",
     };
 
     private static final String[] HDMI_COLOR_LIST = {
