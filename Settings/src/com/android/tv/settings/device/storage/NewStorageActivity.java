@@ -501,14 +501,6 @@ public class NewStorageActivity extends Activity {
                 if (record.isInited() || record.isSnoozed()) {
                     continue;
                 }
-                final DiskInfo disk = info.getDisk();
-                if (disk.isAdoptable()) {
-                    final Intent i = NewStorageActivity.getNewStorageLaunchIntent(context,
-                            info.getId(), disk.getId());
-                    setPopupLaunchFlags(i);
-                    context.startActivity(i);
-                    return;
-                }
             }
         }
 
